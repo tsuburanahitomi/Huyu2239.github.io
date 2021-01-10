@@ -89,8 +89,13 @@ a {
     background:rgb(60,60,60);
     border-radius: 40px 40px 40px 40px; 
 }
-.str {
+.title {
     font-family: serif;
     font-size: 70px;
+    color: white;
+}
+.str {
+    font-family: serif;
+    font-size: 20px;
     color: white;
 }
