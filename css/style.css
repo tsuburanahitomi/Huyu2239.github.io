@@ -79,3 +79,8 @@ a {
     border-radius: 10px;
     box-shadow: none;
   }
+.str {
+    font-family: serif;
+    font-size: 70px;
+    color: white;
+}
