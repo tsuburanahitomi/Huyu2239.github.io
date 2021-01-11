@@ -5,21 +5,6 @@
 		<link href="css/style.css"rel="stylesheet"type="text/css">
 		<link href="css/index.css"rel="stylesheet"type="text/css">
 		<link rel="shortcut icon" href="pic/Folder.ico">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
-		<script>
-			jQuery(function(){
-				var windowWidth = $(window).width();
-				var headerHight = 100; 
-				jQuery('a[href^=#]').click(function() {
-				var speed = 10;
-				var href= jQuery(this).attr("href");
-				var target = jQuery(href == "#" || href == "" ? 'html' : href);
-				var position = target.offset().top-headerHight;
-				jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
-				return false;
-			   });
-			});
-		</script>
 		<title>HOME/冬優</title>
 	</head>
 	<body>
@@ -50,22 +35,23 @@
 				Inquiry-問い合わせ
 			</a>
 		</div>
-		<div class="square2"></div>
-		<div style="position: absolute;top: 170px;left: 150px;">
-			<h2 class="heading"style="position:relative;left:150px;top: -10px;">
-				Huyu2239
-			</h2>
-			<img src="pic/Folder.png" width=150 height=150 style="position: absolute;top: 0px;left: 0px;">
-				<p class="str">
-					どこにでもいるクリエイター（男子）<br>
-					今は受験中なのでお休み
-				</p>
-				<h2 id="inquiry" style="color: rgb(255,255,255);">
-					Inquiry-問い合わせ
+		<div class="square2">
+			<div style="position: absolute;top: 50px;left: 150px;">
+				<h2 class="heading"style="position:relative;left:150px;top: -10px;">
+					Huyu2239
 				</h2>
-				<p class="str">
-					(mov.huyu@gmail.com)まで
-				</p>
+				<img src="pic/Folder.png" width=150 height=150 style="position: absolute;top: 0px;left: 0px;">
+					<p class="str">
+						どこにでもいるクリエイター（男子）<br>
+						今は受験中なのでお休み
+					</p>
+					<h2 id="inquiry" style="color: rgb(255,255,255);">
+						Inquiry-問い合わせ
+					</h2>
+					<p class="str">
+						(mov.huyu@gmail.com)まで
+					</p>
+			</div>
 		</div>
         <footer>
             <p style="color: rgb(255,255,255);">
